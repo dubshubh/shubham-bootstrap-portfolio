@@ -6,6 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+html {
+  scroll-behavior: smooth;
+}
+.nav-link:hover {
+  color: #0dcaf0 !important;
+  text-decoration: underline;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
