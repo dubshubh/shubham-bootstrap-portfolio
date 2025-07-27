@@ -8,7 +8,15 @@ export default function Projects() {
       desc: "Built a machine learning model with UI to predict disease risks.",
     },
     {
-      title: "Sales Data Analysis",
+      title: (
+        <a
+          href="https://sql-analytics-dashboard.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sales Data Analysis
+        </a>
+      ),
       tech: "Excel, SQL",
       desc: "Analyzed structured sales data for trends and KPIs.",
     },
